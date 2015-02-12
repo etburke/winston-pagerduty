@@ -1,13 +1,9 @@
-# winston-pagerduty
-PagerDuty Transport for Winston
-
-```
 var winston = require('winston');
 
-require('winston-pagerduty');
+require('./index.js');
 
 var options = {
-	serviceKey: "your service key",
+	serviceKey: "add your service key to test",
 	level: "error",
 	handleExceptions: true
 }
@@ -26,4 +22,5 @@ logger.error("Test, test, test", {
 	"param4": "val4",
 	"param5": "val5"
 });
-```
+
+tttt
