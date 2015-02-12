@@ -1,0 +1,27 @@
+{
+  "name": "winston-pagerduty",
+  "version": "1.0.0",
+  "description": "PagerDuty Transport for Winston",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/etburke/winston-pagerduty.git"
+  },
+  "keywords": [
+    "pagerduty",
+    "winston"
+  ],
+  "author": "Thomas Burke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/etburke/winston-pagerduty/issues"
+  },
+  "homepage": "https://github.com/etburke/winston-pagerduty",
+  "dependencies": {
+    "superagent": "^0.21.0",
+    "winston": "^0.9.0"
+  }
+}
