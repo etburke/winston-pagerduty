@@ -1,7 +1,7 @@
 # winston-pagerduty
 PagerDuty Transport for Winston
 
-```
+```javascript
 var winston = require('winston');
 
 require('winston-pagerduty');
