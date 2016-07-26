@@ -1,6 +1,6 @@
 {
   "name": "winston-pagerduty",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "PagerDuty Transport for Winston",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/etburke/winston-pagerduty",
   "dependencies": {
-    "superagent": "^0.21.0",
-    "winston": "^0.9.0"
+    "superagent": "^2.1.0",
+    "winston": "^2.2.0"
   }
 }
